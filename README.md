@@ -1,0 +1,2 @@
+<h1>Leetcode</h1>
+<p>Bu yerda leetcode bo'yicha yechayotgan masalalarimni javoblarini qo'yib boraman. Har bir yechilgan misol uchun link qoldiraman. Qo'shimcha tushunarli bo'lishi uchun har bir misolni 📝 matn ko'rinishdagi tushuntirilgani va <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png?20220706172052" style="width: 25px;"> youtube'da joylangan videosini ulab qo'yaman.</p>
