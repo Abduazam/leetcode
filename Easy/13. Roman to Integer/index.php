@@ -2,7 +2,7 @@
 
 class Solution {
 
-    public function romanToInt($s)
+    public function romanToInt($s): int
     {
         $total = 0;
         $prev = 0;
@@ -22,7 +22,8 @@ class Solution {
         return $total;
     }
 
-    private function getRomanAsInt($value) {
+    private function getRomanAsInt($value): int
+    {
         return match ($value) {
             'I' => 1,
             'V' => 5,

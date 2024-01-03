@@ -2,7 +2,8 @@
 
 class Solution {
 
-    function twoSum($nums, $target) {
+    function twoSum($nums, $target): array
+    {
         $numsIndex = [];
 
         for ($i = 0; $i < count($nums) - 1; $i++) {
