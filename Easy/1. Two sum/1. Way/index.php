@@ -1,8 +1,16 @@
 <?php
 
-class Solution {
+namespace Easy\TwoSum\WayOne;
 
-    function twoSum($nums, $target): array
+class Solution
+{
+    /**
+     * @param array<integer> $nums
+     * @param integer $target
+     *
+     * @return array<integer>
+     */
+    public function twoSum(array $nums, int $target): array
     {
         $numsIndex = [];
 

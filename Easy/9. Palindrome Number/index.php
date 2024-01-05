@@ -1,8 +1,15 @@
 <?php
 
-class Solution {
+namespace Easy\PalindromeNumber;
 
-    function isPalindrome($x): bool
+class Solution
+{
+    /**
+     * @param integer $x
+     *
+     * @return boolean
+     */
+    function isPalindrome(int $x): bool
     {
         $array = str_split($x);
 

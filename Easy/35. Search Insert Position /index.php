@@ -1,11 +1,13 @@
 <?php
 
+namespace Easy\SearchInsertPosition;
+
 class Solution
 {
-
     /**
-     * @param integer[] $nums
+     * @param array<integer> $nums
      * @param integer $target
+     *
      * @return integer
      */
     public function searchInsert(array $nums, int $target): int

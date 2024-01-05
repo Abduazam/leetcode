@@ -1,8 +1,15 @@
 <?php
 
-class Solution {
+namespace Easy\RomanToInteger;
 
-    public function romanToInt($s): int
+class Solution
+{
+    /**
+     * @param string $s
+     *
+     * @return integer
+     */
+    public function romanToInt(string $s): int
     {
         $total = 0;
         $prev = 0;
