@@ -1,5 +1,0 @@
-Masala raqami: 1
-Kategoriya: Easy (oson)
-Nomi: Two sum
-
-Ushbu masalada bizga sonlardan tashkil topgan array turidagi ma'lumot va raqam turidagi ma'lumot keladi.
