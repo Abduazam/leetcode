@@ -35,7 +35,6 @@ class Solution
 $s = "gctcxyuluxjuxnsvmomavutrrfb";
 $t = "qijrjrhqqjxjtprybrzpyfyqtzf";
 
-
 $solution = new Solution();
 $result = $solution->minSteps($s, $t);
 var_dump($result);
