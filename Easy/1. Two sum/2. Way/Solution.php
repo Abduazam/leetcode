@@ -12,24 +12,19 @@ class Solution
      */
     function twoSum(array $nums, int $target): array
     {
-        $numsIndex = [];
-
-        $complementNumsIndex = [];
+        $hashMap = [];
 
         for ($i = 0; $i < count($nums); $i++) {
-            $currentNum = $nums[$i];
-            $complement = $target - $currentNum;
+            $diff = $target - $nums[$i];
 
-            if (array_key_exists($complement, $complementNumsIndex)) {
-                $numsIndex[] = $complementNumsIndex[$complement];
-                $numsIndex[] = $i;
-                break;
+            if (array_key_exists($diff, $hashMap)) {
+                return [$hashMap[$diff], $i];
             }
 
-            $complementNumsIndex[$currentNum] = $i;
+            $hashMap[$nums[$i]] = $i;
         }
 
-        return $numsIndex;
+        return [];
     }
     
 }
