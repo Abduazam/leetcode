@@ -8,7 +8,7 @@ class Solution
      * @param integer $n
      * @return boolean
      */
-    function isPowerOfTwo(int $n): bool
+    public function isPowerOfTwo(int $n): bool
     {
         while ($n > 0) {
             if ($n == 1) {
@@ -25,3 +25,7 @@ class Solution
         return false;
     }
 }
+
+$solution = new Solution();
+$result = $solution->isPowerOfTwo(3);
+var_dump($result);
