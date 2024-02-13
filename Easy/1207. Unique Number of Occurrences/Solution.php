@@ -9,7 +9,7 @@ class Solution
      *
      * @return boolean
      */
-    function uniqueOccurrences(array $arr): bool
+    public function uniqueOccurrences(array $arr): bool
     {
         $numbers = array_count_values($arr);
 

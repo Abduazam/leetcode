@@ -10,7 +10,7 @@ class Solution
      *
      * @return boolean
      */
-    function closeStrings(string $word1, string $word2): bool
+    public function closeStrings(string $word1, string $word2): bool
     {
         if (strlen($word1) != strlen($word2)) {
             return false;

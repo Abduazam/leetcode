@@ -9,7 +9,7 @@ class Solution
      *
      * @return integer
      */
-    function maxProfit(array $prices): int
+    public function maxProfit(array $prices): int
     {
         $min = $prices[0];
         $max = 0;

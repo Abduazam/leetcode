@@ -8,7 +8,7 @@ class Solution
      * @param array<integer> $nums
      * @return array<array<integer>>
      */
-    function findMatrix(array $nums): array
+    public function findMatrix(array $nums): array
     {
         $numbers = array_count_values($nums);
 

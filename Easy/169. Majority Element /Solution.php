@@ -8,7 +8,7 @@ class Solution
     * @param array<integer> $nums
  * @return integer
     */
-    function majorityElement(array $nums): int
+    public function majorityElement(array $nums): int
     {
         $counts = array_count_values($nums);
 

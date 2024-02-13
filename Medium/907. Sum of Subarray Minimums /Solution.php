@@ -8,7 +8,7 @@ class Solution
      * @param array<integer> $arr
      * @return integer
      */
-    function sumSubarrayMins(array $arr): int
+    public function sumSubarrayMins(array $arr): int
     {
         $all = [];
 

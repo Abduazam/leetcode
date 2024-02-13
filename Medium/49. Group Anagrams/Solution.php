@@ -8,7 +8,7 @@ class Solution
      * @param array<string> $strs
      * @return array<array<string>>
      */
-    function groupAnagrams(array $strs): array
+    public function groupAnagrams(array $strs): array
     {
         $result = [];
 

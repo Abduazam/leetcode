@@ -9,7 +9,7 @@ class Solution
      *
      * @return integer
      */
-    function firstUniqChar(string $s): int
+    public function firstUniqChar(string $s): int
     {
         $chars = str_split($s);
 

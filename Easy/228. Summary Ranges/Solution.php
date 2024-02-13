@@ -9,7 +9,7 @@ class Solution
      *
      * @return array<string>
      */
-    function summaryRanges(array $nums): array
+    public function summaryRanges(array $nums): array
     {
         $output = [];
         if (count($nums) === 0) return $output;

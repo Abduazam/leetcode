@@ -10,7 +10,7 @@ class Solution
      *
      * @return integer
      */
-    function longestCommonSubsequence(string $text1, string $text2): int
+    public function longestCommonSubsequence(string $text1, string $text2): int
     {
         $t1 = str_split($text1);
         $t2 = str_split($text2);

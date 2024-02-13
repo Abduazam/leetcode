@@ -9,7 +9,7 @@ class Solution
      *
      * @return boolean
      */
-    function containsDuplicate(array $nums): bool
+    public function containsDuplicate(array $nums): bool
     {
         $count = array_count_values($nums);
 

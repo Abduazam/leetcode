@@ -9,7 +9,7 @@ class Solution
      *
      * @return boolean
      */
-    function isPalindrome(string $s): bool
+    public function isPalindrome(string $s): bool
     {
         $string = "";
 

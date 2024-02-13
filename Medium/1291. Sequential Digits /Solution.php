@@ -10,17 +10,17 @@ class Solution
      *
      * @return array<integer>
      */
-    function sequentialDigits(int $low, int $high): array
+    public function sequentialDigits(int $low, int $high): array
     {
         $result = [];
 
         $digits = range(1, 9);
 
         for ($i = 0; $i < count($digits); $i++) {
-            $num = $digits[$i]; // 8, 89
-            $step = $i; // 7, 8
+            $num = $digits[$i];
+            $step = $i;
 
-            while (strlen($num) <= strlen($high)) { // 1 <= 3, 2 <= 3
+            while (strlen($num) <= strlen($high)) {
                 if ($low <= $num && $num <= $high) {
                     $result[] = $num;
                 }

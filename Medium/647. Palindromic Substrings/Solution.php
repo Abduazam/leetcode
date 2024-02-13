@@ -9,7 +9,7 @@ class Solution
      *
      * @return integer
      */
-    function countSubstrings(string $s): int
+    public function countSubstrings(string $s): int
     {
         $count = $result = strlen($s);
 

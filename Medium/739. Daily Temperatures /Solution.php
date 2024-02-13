@@ -8,7 +8,7 @@ class Solution
      * @param array<integer> $temperatures
      * @return array<integer>
      */
-    function dailyTemperatures(array $temperatures): array
+    public function dailyTemperatures(array $temperatures): array
     {
         $result = [];
 

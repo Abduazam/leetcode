@@ -9,7 +9,7 @@ class Solution
      *
      * @return integer
      */
-    function firstBadVersion(int $n): int
+    public function firstBadVersion(int $n): int
     {
         $first = 1;
         $latest = $n;

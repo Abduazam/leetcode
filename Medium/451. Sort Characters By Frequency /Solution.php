@@ -9,7 +9,7 @@ class Solution
      *
      * @return string
      */
-    function frequencySort(string $s): string
+    public function frequencySort(string $s): string
     {
         $chars = count_chars($s, 1);
         arsort($chars);

@@ -9,7 +9,7 @@ class Solution
      *
      * @return integer
      */
-    function minOperations(array $nums): int
+    public function minOperations(array $nums): int
     {
         $counts = array_count_values($nums);
 

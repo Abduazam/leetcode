@@ -10,7 +10,7 @@ class Solution
      *
      * @return array<array<integer>>
      */
-    function divideArray(array $nums, int $k): array
+    public function divideArray(array $nums, int $k): array
     {
         $result = [];
 

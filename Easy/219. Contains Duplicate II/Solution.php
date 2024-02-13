@@ -10,7 +10,7 @@ class Solution
      *
      * @return boolean
      */
-    function containsNearbyDuplicate(array $nums, int $k): bool
+    public function containsNearbyDuplicate(array $nums, int $k): bool
     {
         $indices = [];
 

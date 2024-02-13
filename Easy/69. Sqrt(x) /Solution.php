@@ -9,7 +9,7 @@ class Solution
      *
      * @return integer
      */
-    function mySqrt(int $x): int
+    public function mySqrt(int $x): int
     {
         $root = 1;
 
