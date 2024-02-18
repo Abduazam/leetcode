@@ -9,7 +9,7 @@ class NumArray
     /**
      * @param array<integer> $nums
      */
-    function __construct(array $nums) {
+    public function __construct(array $nums) {
         $this->array = $nums;
     }
 
@@ -18,7 +18,7 @@ class NumArray
      * @param integer $right
      * @return integer
      */
-    function sumRange(int $left, int $right): int
+    public function sumRange(int $left, int $right): int
     {
         return array_sum(array_slice($this->array, $left, ($right - $left) + 1));
     }
