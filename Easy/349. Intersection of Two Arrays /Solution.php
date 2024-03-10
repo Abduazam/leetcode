@@ -11,15 +11,17 @@ class Solution
      */
     function intersection(array $nums1, array $nums2): array
     {
-        $output = array_count_values($nums1);
+        $nums2 = array_flip($nums2);
 
-        foreach ($nums2 as $num) {
-            if (array_key_exists($num, $output)) {
-                $output[$num] = true;
+        $output = [];
+
+        foreach ($nums1 as $num) {
+            if (array_key_exists($num, $nums2)) {
+                $output[$num] = $num;
             }
         }
 
-        return array_keys(array_filter($output, 'is_bool'));
+        return $output;
     }
 }
 
