@@ -12,6 +12,7 @@ class Solution
     {
         $step = 1;
         $max = 1;
+        $test = 1;
 
         while ($n > 0) {
             if ($n >= $step) {
